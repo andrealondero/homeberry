@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:id="@+id/linea_bottoni"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:background="@drawable/gradient_second">
+
+            <ImageButton
+                android:id="@+id/fragment_lamp_button"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:onClick="ToLights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lampbutton"
+                />
+
+            <ImageButton
+                android:id="@+id/fragment_door_button"
+                android:layout_marginEnd="5dp"
+                android:clickable="true"
+                android:onClick="ToDoors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/doorbutton"
+                android:layout_toRightOf="@id/fragment_lamp_button"
+                />
+
+            <ImageButton
+                android:id="@+id/fragment_allarm_button"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="ToAlarms"
+                android:background="@drawable/windowbutton"
+                android:layout_toRightOf="@id/fragment_door_button"
+                />
+
+            <ImageButton
+                android:id="@+id/fragment_fan_button"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="ToFans"
+                android:background="@drawable/fanbutton"
+                android:layout_toRightOf="@id/fragment_allarm_button"
+                />
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:background="#000000"
+            android:layout_height="0dp"
+            android:layout_weight="75">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+</RelativeLayout>

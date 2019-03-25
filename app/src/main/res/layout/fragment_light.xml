@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pianta"/>
+
+    <ImageButton
+        android:id="@+id/ingresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="265dp"
+        android:clickable="true"
+        android:src="@drawable/buttonlamp"
+        android:background="@drawable/buttonlamp"/>
+
+    <ImageButton
+        android:id="@+id/esterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="320dp"
+        android:clickable="true"
+        android:src="@drawable/buttonlamp"
+        android:background="@drawable/buttonlamp"/>
+
+    <ImageButton
+        android:id="@+id/interno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="395dp"
+        android:clickable="true"
+        android:src="@drawable/buttonlamp"
+        android:background="@drawable/buttonlamp"/>
+
+    <ImageButton
+        android:id="@+id/interno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="530dp"
+        android:clickable="true"
+        android:src="@drawable/buttonlamp"
+        android:background="@drawable/buttonlamp"/>
+
+</RelativeLayout>

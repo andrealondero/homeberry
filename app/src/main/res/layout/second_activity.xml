@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="REALISED BY"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/collaborators"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="Cassinari Alessandro,"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/collaborators1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/collaborators"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="Londero Andrea, Manessi Claudia,"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/collaborators2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/collaborators1"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="Negri Matteo,"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/collaborators3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/collaborators2"
+            android:fontFamily="@font/archivo_narrow"
+            android:text="Pettenella Luca"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_below="@id/collaborators3"
+            android:layout_centerHorizontal="true"
+            android:text="COLLABORATORS"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_below="@id/title2"
+            android:layout_centerHorizontal="true"
+            android:text="Antonio Lezzi"
+            android:textSize="14dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
